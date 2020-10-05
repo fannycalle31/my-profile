@@ -1,0 +1,101 @@
+/*Colors and fronts*/
+body{
+	background: #e5dfdf;
+	color:rgb(60,60,60);
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}	
+img{
+	height: 180px
+}
+img:hover{
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.4)
+}
+h1{
+	color:#0f3057;
+	font-size: 45px;
+	font-weight: 700;
+}
+h2{
+	color: #0f3057;
+}
+a{
+	text-decoration: none;
+	color:#0f3057;
+}
+a:hover{
+	color:#00587a;
+	font-weight: bold;
+}
+h3{
+	color:#008891;
+	font-size:18px;
+}
+/*Design with class & id*/
+
+.Big-container{
+    width: 750px;
+    margin: 40px auto;
+}
+
+@media(max-width: 800px){
+	.Big-container{
+		width: 600px;
+	}
+}
+@media(max-width: 500px){
+	.Big-container{
+		width: 400px;
+	}
+}
+
+.box-white{
+	background-color: white;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+	margin:25px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 60%;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	height: 180px;
+}
+.btn-green{
+	background-color: #0f3057;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	margin: 5px;
+}
+.btn-green:hover{
+	background-color: #00587a;
+	color:white;
+
+}
+.list-align{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-align li{
+	display: inline;
+	padding: 15px;
+}
+.list-align i{
+	font-size: 40px;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.fond{
+	background-size:cover; 
+	background-position:center center; 
+	background-repeat:no-repeat;
+	padding: 30px 0px;
+	margin: 0px;
+}
+
+
